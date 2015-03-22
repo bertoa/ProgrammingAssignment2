@@ -10,6 +10,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## Return a inverse matix of x
+## if inverse was cached, return the cached inverse matrix
 
 cacheSolve <- function(x, ...) {
     m <- x$getinverse
